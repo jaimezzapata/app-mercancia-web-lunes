@@ -1,8 +1,15 @@
+import Card from "../../components/Card"
+
 function ListadoMercancia() {
   return (
-    <section>
-      <div>
-        <h1>Mercancía</h1>
+    <section className="panel-control">
+      <div className="panel-listado">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </section>
   )
