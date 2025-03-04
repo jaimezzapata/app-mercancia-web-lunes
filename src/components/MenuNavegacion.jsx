@@ -1,8 +1,10 @@
+import userLogo from '../assets/user.jpg'
+
 const MenuNavegacion = () => {
   return (
     <aside className="menu-navegacion">
       <div className="menu-navegacion-logo">
-        <img src="" alt="" />
+        <img src={userLogo} alt="" />
       </div>
       <nav className="menu-navegacion-nav">
         <ul>
