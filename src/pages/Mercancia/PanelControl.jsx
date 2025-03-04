@@ -1,11 +1,12 @@
-import MenuNavegacion from "../../components/MenuNavegacion"
+import Card from "../../components/Card"
 
 const PanelControl = () => {
   return (
     <section className="panel-control">
-      <MenuNavegacion />
       <div className="panel-contenido">
-        <h1>Mensaje de Bienvenida</h1>
+        <Card />
+        <Card />
+        <Card />
       </div>
     </section>
   )
